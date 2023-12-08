@@ -25,5 +25,5 @@ if txt != '':
     label = str(model.predict(feature_vector)[0])
     
     st.header('Result')
-    st.text(class_list[lable])
+    st.text(class_list[label])
     
