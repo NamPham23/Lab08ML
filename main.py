@@ -6,8 +6,8 @@ import numpy as np
 class_list ={'0': 'Male', '1': 'Female'}
 st.title('Sentiment analysis from Vietnamese names')
 
-#image = Image.open('.png')
-#st.image(image)
+image = Image.open('vi-names.png')
+st.image(image)
 
 input_ec = open('ec_vinames.pkl','rb')
 encoder = pkl.load(input_ec)
