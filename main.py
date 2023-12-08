@@ -8,13 +8,13 @@ st.title('Sentiment analysis from Vietnamese names')
 #image = Image.open('.png')
 #st.image(image)
 
-input_ec = open('ec_vsfc.pkl','rb')
+input_ec = open('ec_vinames.pkl','rb')
 encoder = pkl.load(input_ec)
 
-input_md = open('lrc_vsfc.pkl','rb')
+input_md = open('lrc_vinames.pkl','rb')
 model = pkl.load(input_md)
 
-st.header('write a feedback')
+st.header('write a name')
 txt = st.text_area('','')
 
 if txt != '':
