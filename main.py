@@ -3,7 +3,7 @@ import pickle as pkl
 from PIL import Image
 import numpy as np
 
-class_list ={'0': 'Male', '1': 'Female','2'}
+class_list ={'0': 'Male', '1': 'Female'}
 st.title('Sentiment analysis from Vietnamese names')
 
 #image = Image.open('.png')
